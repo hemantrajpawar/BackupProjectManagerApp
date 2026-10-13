@@ -223,37 +223,7 @@ export const ProjectTasksPage = () => {
         </button>
       </div>
 
-      {/* Project stage stepper with task details on hover */}
-      <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-        <div className="flex items-start justify-between gap-3 mb-5">
-          <div>
-            <h2 className="text-sm font-bold text-slate-900">Project journey</h2>
-            <p className="mt-1 text-[11px] text-slate-500">Hover over a milestone to see its status and target date.</p>
-          </div>
-          <span className="rounded-full bg-indigo-50 px-2.5 py-1 text-[10px] font-semibold text-indigo-700">{summary.completed} of {summary.total} tasks complete</span>
-        </div>
-        <div className="flex items-start overflow-x-auto pb-2">
-          {projectTasks.filter((task) => !task.isSubtask).sort((a, b) => new Date(a.plannedStartDate || 0) - new Date(b.plannedStartDate || 0)).map((task, index, arr) => {
-            const done = task.status === "Completed";
-            const active = task.status === "In Progress";
-            return <div key={task.id} className="relative flex min-w-[120px] flex-1 flex-col items-center text-center group">
-              {index < arr.length - 1 && <div className={`absolute left-1/2 top-3 h-0.5 w-full ${done ? "bg-emerald-400" : "bg-slate-200"}`} />}
-              <div className={`relative z-10 flex h-6 w-6 items-center justify-center rounded-full border-2 ${done ? "border-emerald-500 bg-emerald-500 text-white" : active ? "border-indigo-600 bg-white text-indigo-600" : "border-slate-300 bg-white text-slate-400"}`}>
-                {done ? <CheckSquare className="h-3.5 w-3.5" /> : <span className="h-1.5 w-1.5 rounded-full bg-current" />}
-              </div>
-              <span className="mt-2 max-w-[125px] truncate text-[10px] font-semibold text-slate-700">{task.title}</span>
-              <span className={`mt-1 text-[9px] font-medium ${done ? "text-emerald-600" : active ? "text-indigo-600" : task.status === "On Hold" ? "text-amber-600" : "text-slate-400"}`}>{task.status}</span>
-              <div className="pointer-events-none absolute left-1/2 top-[-4px] z-30 hidden w-56 -translate-x-1/2 -translate-y-full rounded-xl border border-slate-200 bg-white p-3 text-left shadow-xl group-hover:block group-focus-within:block">
-                <p className="text-xs font-bold text-slate-900">{task.title}</p>
-                <p className="mt-1 text-[10px] text-slate-500">Status: <span className="font-semibold text-slate-700">{task.status}</span></p>
-                <p className="mt-1 text-[10px] text-slate-500">{done ? "Completed on" : "Planned end"}: <span className="font-semibold text-slate-700">{done ? formatDate(task.completedAt || task.plannedEndDate, false) : (task.plannedEndDate ? formatDate(task.plannedEndDate, false) : "Not set")}</span></p>
-                {done && <p className="mt-1 text-[10px] text-emerald-600">Completed milestone</p>}
-              </div>
-            </div>;
-          })}
-          {projectTasks.filter((task) => !task.isSubtask).length === 0 && <p className="text-xs text-slate-500">Create tasks to build the project journey.</p>}
-        </div>
-      </section>
+    
 
       {/* Mini Summary Stats Row */}
       <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">

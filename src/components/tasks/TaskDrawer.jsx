@@ -366,24 +366,7 @@ export const TaskDrawer = ({
           )}
         </div>
 
-        {/* Progress Slider */}
-        <div className="space-y-2">
-          <div className="flex items-center justify-between font-semibold text-slate-700 dark:text-slate-300">
-            <span>Actual Progress</span>
-            <span className="text-emerald-600 dark:text-emerald-400 text-sm font-bold">
-              {progress}%
-            </span>
-          </div>
-          <input
-            type="range"
-            min="0"
-            max="100"
-            step="5"
-            value={progress}
-            onChange={(e) => setProgress(e.target.value)}
-            className="w-full accent-indigo-600 cursor-pointer"
-          />
-        </div>
+        
 
         {/* On Hold Section (Conditional) */}
         {status === "On Hold" && (
