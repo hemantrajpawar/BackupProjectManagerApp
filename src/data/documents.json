@@ -1,0 +1,65 @@
+[
+  {
+    "id": "doc-1",
+    "name": "Architecture_Spec_v2.4.pdf",
+    "type": "pdf",
+    "size": "3.4 MB",
+    "relatedProjectId": "proj-1",
+    "relatedTaskId": "task-101",
+    "previewContent": "Technical architecture specification outlining microfrontend composition, GraphQL schema design, and caching layers with sub-second TTL."
+  },
+  {
+    "id": "doc-2",
+    "name": "Security_Audit_Checklist.xlsx",
+    "type": "xlsx",
+    "size": "1.1 MB",
+    "relatedProjectId": "proj-1",
+    "relatedTaskId": "task-104",
+    "previewContent": "ISO 27001 & SOC2 Type II compliance audit checklist with 48 automated verification controls across IAM, encryption, and audit logs."
+  },
+  {
+    "id": "doc-3",
+    "name": "API_Gateway_Contract_v1.json",
+    "type": "json",
+    "size": "450 KB",
+    "relatedProjectId": "proj-2",
+    "relatedTaskId": "task-201",
+    "previewContent": "OpenAPI 3.1 contract specification for public partner gateway endpoints with OAuth2 bearer token security schemes."
+  },
+  {
+    "id": "doc-4",
+    "name": "Vendor_SLA_Agreement.pdf",
+    "type": "pdf",
+    "size": "2.8 MB",
+    "relatedProjectId": "proj-2",
+    "relatedTaskId": "task-203",
+    "previewContent": "Core banking provider SLA terms, guaranteed latency thresholds, and priority severity-1 escalation protocols."
+  },
+  {
+    "id": "doc-5",
+    "name": "UX_Wireframes_DesignSystem.fig",
+    "type": "fig",
+    "size": "8.6 MB",
+    "relatedProjectId": "proj-3",
+    "relatedTaskId": "task-301",
+    "previewContent": "Figma design tokens, color ramps, typography scale, responsive breakpoints, and accessible component library."
+  },
+  {
+    "id": "doc-6",
+    "name": "Payment_Reconciliation_Test_Run.pdf",
+    "type": "pdf",
+    "size": "1.9 MB",
+    "relatedProjectId": "proj-4",
+    "relatedTaskId": "task-402",
+    "previewContent": "Stripe & Adyen sandbox reconciliation test run results showing 99.98% idempotency success across 100,000 synthetic transactions."
+  },
+  {
+    "id": "doc-7",
+    "name": "Mobile_Release_Notes_v1.0.md",
+    "type": "md",
+    "size": "48 KB",
+    "relatedProjectId": "proj-5",
+    "relatedTaskId": "task-501",
+    "previewContent": "App Store & Google Play release notes, changelog, staged percentage rollout schedule, and crashlytics thresholds."
+  }
+]

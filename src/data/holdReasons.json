@@ -1,0 +1,56 @@
+[
+  {
+    "id": "hold-1",
+    "category": "Client",
+    "title": "Client Approval Pending",
+    "description": "Awaiting final architectural sign-off and SLA liability sign-off from enterprise banking stakeholder committee.",
+    "responsibleUserId": "usr-9",
+    "recordedDate": "2026-10-04",
+    "expectedReviewDate": "2026-10-18"
+  },
+  {
+    "id": "hold-2",
+    "category": "Dependency",
+    "title": "External Dependency Not Delivered",
+    "description": "Upstream partner banking gateway SDK v3 release delayed by provider until late Q4 security audit completion.",
+    "responsibleUserId": "usr-3",
+    "recordedDate": "2026-10-06",
+    "expectedReviewDate": "2026-10-20"
+  },
+  {
+    "id": "hold-3",
+    "category": "Resource",
+    "title": "Resource Unavailable",
+    "description": "Primary cloud infrastructure architect temporarily deployed to high-priority enterprise disaster recovery audit.",
+    "responsibleUserId": "usr-4",
+    "recordedDate": "2026-10-08",
+    "expectedReviewDate": "2026-10-15"
+  },
+  {
+    "id": "hold-4",
+    "category": "Budget",
+    "title": "Budget Approval Pending",
+    "description": "Supplementary cloud GPU cluster budget request awaiting review by executive finance board.",
+    "responsibleUserId": "usr-1",
+    "recordedDate": "2026-10-02",
+    "expectedReviewDate": "2026-10-16"
+  },
+  {
+    "id": "hold-5",
+    "category": "Technical",
+    "title": "Technical Blocker",
+    "description": "Intermittent database connection pooling timeout observed under simulated 50,000 RPS concurrent load.",
+    "responsibleUserId": "usr-3",
+    "recordedDate": "2026-10-07",
+    "expectedReviewDate": "2026-10-14"
+  },
+  {
+    "id": "hold-6",
+    "category": "Scope",
+    "title": "Scope Clarification Required",
+    "description": "Clarification needed on multi-region data residency compliance for German and French enterprise tenant partitions.",
+    "responsibleUserId": "usr-8",
+    "recordedDate": "2026-10-05",
+    "expectedReviewDate": "2026-10-17"
+  }
+]

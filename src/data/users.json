@@ -1,0 +1,92 @@
+[
+  {
+    "id": "usr-1",
+    "name": "Alex Rivera",
+    "email": "alex.rivera@company.com",
+    "role": "Lead Project Manager",
+    "department": "Engineering Management",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "initials": "AR"
+  },
+  {
+    "id": "usr-2",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@company.com",
+    "role": "Staff Frontend Architect",
+    "department": "Frontend Engineering",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+    "initials": "SC"
+  },
+  {
+    "id": "usr-3",
+    "name": "Marcus Vance",
+    "email": "marcus.vance@company.com",
+    "role": "Senior Backend Engineer",
+    "department": "Core Platform",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    "initials": "MV"
+  },
+  {
+    "id": "usr-4",
+    "name": "Elena Rostova",
+    "email": "elena.r@company.com",
+    "role": "DevOps & Cloud Lead",
+    "department": "Cloud Infrastructure",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+    "initials": "ER"
+  },
+  {
+    "id": "usr-5",
+    "name": "Priya Patel",
+    "email": "priya.p@company.com",
+    "role": "Principal UI/UX Designer",
+    "department": "Product Design",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+    "initials": "PP"
+  },
+  {
+    "id": "usr-6",
+    "name": "David Kim",
+    "email": "david.k@company.com",
+    "role": "Senior Fullstack Developer",
+    "department": "Application Engineering",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+    "initials": "DK"
+  },
+  {
+    "id": "usr-7",
+    "name": "Rachel Green",
+    "email": "rachel.g@company.com",
+    "role": "QA Automation Lead",
+    "department": "Quality Assurance",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+    "initials": "RG"
+  },
+  {
+    "id": "usr-8",
+    "name": "Tariq Mansoor",
+    "email": "tariq.m@company.com",
+    "role": "Security & Compliance Analyst",
+    "department": "Information Security",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+    "initials": "TM"
+  },
+  {
+    "id": "usr-9",
+    "name": "Jessica Taylor",
+    "email": "jessica.t@company.com",
+    "role": "Product Owner",
+    "department": "Product Management",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+    "initials": "JT"
+  },
+  {
+    "id": "usr-10",
+    "name": "Carlos Mendez",
+    "email": "carlos.m@company.com",
+    "role": "Mobile Applications Lead",
+    "department": "Mobile Engineering",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
+    "initials": "CM"
+  }
+]
